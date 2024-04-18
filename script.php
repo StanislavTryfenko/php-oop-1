@@ -14,6 +14,6 @@ foreach ($db as $film) {
 //var_dump($films);
 
 // Show films list (comment to diplay on html)
-/* foreach ($films as $film) {
+ foreach ($films as $film) {
     $film->show();
-} */
+} 

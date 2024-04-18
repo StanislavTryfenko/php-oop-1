@@ -5,27 +5,27 @@ $db = [
         'language' => 'English',
         'vote' => 8,
         'name' => 'Action',
-        'description' => 'descrizione avatar...',
+        'description' => 'immagina una descrizione per il genere',
     ],
     [
         'title' => 'Perfetti Sconosciuti',
         'language' => 'Italian',
         'vote' => 10,
-        'name' => 'comedy',
-        'description' => 'descrizione pefetti sconosciuti...',
+        'name' => 'Comedy',
+        'description' => 'immagina una descrizione per il genere',
     ],
     [
         'title' => 'Vicini di casa',
         'language' => 'Italian',
         'vote' => 9,
         'name' => 'Comedy',
-        'description' => 'descrizione vicini di casa...',
+        'description' => 'immagina una descrizione per il genere',
     ],
     [
         'title' => 'Sottomessa',
         'language' => 'English-US',
         'vote' => 9,
         'name' => 'Comedy',
-        'description' => 'descrizione sottomessa...',
+        'description' => 'immagina una descrizione per il genere',
     ]
 ];

@@ -15,6 +15,7 @@ require_once __DIR__ . '/script.php';
 
 <body class="bg-dark">
     <h1 class="text-center text-white mt-5">OOP films</h1>
+    
     <div class="container mt-5">
         <div class="row g-3">
             <?php foreach ($films as $film) : ?>
