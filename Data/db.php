@@ -2,30 +2,30 @@
 $db = [
     [
         'title' => 'Avatar',
-        'language' => 'english',
+        'language' => 'English',
         'vote' => 8,
-        'name' => 'action',
+        'name' => 'Action',
         'description' => 'descrizione avatar...',
     ],
     [
         'title' => 'Perfetti Sconosciuti',
-        'language' => 'italian',
+        'language' => 'Italian',
         'vote' => 10,
         'name' => 'comedy',
         'description' => 'descrizione pefetti sconosciuti...',
     ],
     [
         'title' => 'Vicini di casa',
-        'language' => 'italian',
+        'language' => 'Italian',
         'vote' => 9,
-        'name' => 'comedy',
-        'description' => 'descrizione pefetti sconosciuti...',
+        'name' => 'Comedy',
+        'description' => 'descrizione vicini di casa...',
     ],
     [
         'title' => 'Sottomessa',
-        'language' => 'english-US',
+        'language' => 'English-US',
         'vote' => 9,
-        'name' => 'comedy',
-        'description' => 'descrizione pefetti sconosciuti...',
+        'name' => 'Comedy',
+        'description' => 'descrizione sottomessa...',
     ]
 ];
