@@ -1,22 +1,16 @@
 <?php
-class Production
-{
-    public function __construct(public string $title, public string $language, public int $vote)
-    {
-    }
+require_once __DIR__ . '/Models/Production.php';
+require_once __DIR__ . '/db.php';
 
-    public function show()
-    {
-        echo ' Titotlo: ' . $this->title . ' Lingua: ' . $this->language . ' Voto: ' . $this->vote . '<br>';
-    }
+// Create an array of films
+$films = [];
+
+// Create films
+foreach ($db as $film) {
+    $films[] = new Production($film['title'], $film['language'], $film['vote']);
 }
 
-//productions list
-$avatar = new Production("Avatar", "English", 8);
-$perfetti_sconosciuti = new Production("Perfetti Sconosciuti", "Italian", 10);
-$vicini_di_casa = new Production("Vicini di casa", "Italian", 9);
-
-//show productions
-$avatar->show();
-$perfetti_sconosciuti->show();
-$vicini_di_casa->show();
+// Show films list
+foreach ($films as $film) {
+    $film->show();
+}
