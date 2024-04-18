@@ -7,6 +7,6 @@ class Production
 
     public function show()
     {
-        echo ' Titotlo: ' . $this->title . ' Lingua: ' . $this->language . ' Voto: ' . $this->vote . '<br>';
+        echo ' Titotlo: ' . $this->title . ' Lingua: ' . $this->language . ' Voto: ' . $this->vote . ' Genere: ' . $this->genre?->name. ' Descrizione: ' . $this->genre?->description . '<br>';
     }
 }
