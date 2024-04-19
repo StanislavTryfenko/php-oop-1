@@ -15,18 +15,18 @@ require_once __DIR__ . '/script.php';
 
 <body class="bg-dark">
     <h1 class="text-center text-white mt-5">OOP films</h1>
-    
+
     <div class="container mt-5">
         <div class="row g-3">
-            <?php foreach ($films as $film) : ?>
+            <?php foreach ($productions as $production) : ?>
                 <div class="col-4">
                     <div class="card text-center">
                         <div class="card-body">
-                            <h5 class="card-title">Titolo: <?= $film->title ?></h5>
-                            <p class="card-text">Lingua: <?= $film->language ?></p>
-                            <p class="card-text">Voto: <?= $film->vote ?></p>
-                            <p class="card-text">Genere: <?= $film->genre?->name ?></p>
-                            <p class="card-text">Descrizione: <?= $film->genre?->description ?></p>
+                            <h5 class="card-title"><?= $production->title ?></h5>
+                            <p class="card-text"><?= $production->language ?></p>
+                            <p class="card-text"><?= $production->vote ?></p>
+                            <p class="card-text"><?= $production->genre?->name ?></p>
+                            <p class="card-text"><?= $production->genre?->description ?></p>
                         </div>
                     </div>
                 </div>

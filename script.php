@@ -3,17 +3,17 @@ require_once __DIR__ . '/Data/db.php';
 require_once __DIR__ . '/Models/Production.php';
 require_once __DIR__ . '/Models/Genre.php';
 
-// Create an array of films
-$films = [];
+// Create an array of productions
+$productions = [];
 
-// Create films
-foreach ($db as $film) {
-    $films[] = new Production($film['title'], $film['language'], $film['vote'], new Genre($film['name'], $film['description']));
+// Create productions
+foreach ($db as $production) {
+    $productions[] = new Production($production['title'], $production['language'], $production['vote'], new Genre($production['name'], $production['description']));
 }
-// Check films
-//var_dump($films);
+// Check productions
+//var_dump($productions);
 
-// Show films list (comment to diplay on html)
- foreach ($films as $film) {
-    $film->show();
-} 
+// Show productions list (comment to diplay on html)
+foreach ($productions as $production) {
+    $production->show();
+}
